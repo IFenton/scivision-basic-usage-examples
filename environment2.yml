@@ -1,14 +1,17 @@
-name: scivision3
+name: scivision2
 channels:
   - conda-forge
   - anaconda
 dependencies:
   - python=3.9
-  - black=21.4b2 #23.1.0
+  - black=21.4b2
+  - chex=0.0.9
   - detectron2=0.6
   - flax=0.3.3 #0.3.6
   - jax=0.2.10
   - onnxconverter-common=1.13.0
+  - optax=0.0.9
+  #- protobuf=3.19.6
   - tensorflow=2.10.0
   #- tensorflow-cpu=2.10.0
   - tensorflow-hub=0.12.0
@@ -23,9 +26,9 @@ dependencies:
     - keras-nlp==0.2.0
     - python-doctr==0.6.0
     - torch==1.13.1
-    #- git+https://github.com/IFenton/scivision@IFenton-installation-patch#egg=scivision
-    #- git+https://github.com/alan-turing-institute/scivision_classifier@main#egg=scivision_classifier # now installs fine
-    - git+https://github.com/alan-turing-institute/scivision@main#egg=scivision # -e installation needed otherwise font file isn't downloaded
+    - git+https://github.com/IFenton/scivision@IFenton-installation-patch#egg=scivision
+    - git+https://github.com/alan-turing-institute/scivision_classifier@main#egg=scivision_classifier # now installs fine
+    #- git+https://github.com/alan-turing-institute/scivision@main#egg=scivision # -e installation needed otherwise font file isn't downloaded
     #- git+https://github.com/alan-turing-institute/scivision_huggingface@main#egg=scivision_huggingface # --no-deps
     #- git+https://github.com/alan-turing-institute/scivision_huggingface_objectdetection # --no-deps
     #- git+https://github.com/alan-turing-institute/scivision_huggingface_segmentation@main#egg=huggingface_segmentation # --no-deps

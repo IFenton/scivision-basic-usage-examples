@@ -1,0 +1,26 @@
+name: scivision_may
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - black=21.4b2
+  - detectron2=0.6
+  - flax=0.3.6
+  - jax=0.2.10
+  - jupyter=1.0.0
+  - onnxconverter-common=1.13.0
+  - pip=23.0.1
+  - tensorflow=2.10.0
+  - tensorflow-cpu=2.10.0
+  - tensorflow-hub=0.12.0
+  - tf2onnx=1.13.0
+  - timm=0.6.11
+  - tokenizers=0.12.1
+  - torchvision=0.12.0
+  - transformers=4.19.0
+  - pip:
+    - keras-nlp==0.2.0
+    - python-doctr==0.6.0
+    #- git+https://github.com/alan-turing-institute/scivision@main#egg=scivision
+    - git+https://github.com/IFenton/scivision@IFenton-font-patch#egg=scivision
+    - torch==1.13.1

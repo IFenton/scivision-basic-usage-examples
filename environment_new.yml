@@ -1,0 +1,40 @@
+name: scivision_new
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.9 #3.9.12
+  # - black=23.1.0  # pip 22.3.0
+  # - detectron2=0.6 # pip
+  # - flax=0.3.6 # pip 0.5.2
+  # - jax=0.2.10 # pip 0.3.6
+  # - onnxconverter-common=1.13.0 # pip 1.9.0
+  # - tensorflow=2.10.0 # pip 2.11.0
+  # - tensorflow-cpu=2.10.0 # pip 2.9.1
+  # - tensorflow-hub=0.12.0 # not present
+  # - tf2onnx=1.13.0 # pip 1.11.1
+  # - timm=0.6.11 # pip 0.5.4
+  # - tokenizers=0.12.1 # pip
+  # - torchvision=0.12.0 # pip 0.11.1
+  # - transformers=4.19.0 # pip 4.20.1
+
+  # - charset-normalizer=2.1.1
+  # - flatbuffers=2.0.8
+  # - grpcio=1.47.1
+  # - libclang=15.0.7
+  # - markdown=3.4.2
+  # - protobuf=4.21.12
+  # - pyasn1-modules=0.2.7
+
+  - jupyter # 1.0.0
+  - pip # 22.1.1
+  - pip:
+    - git+https://github.com/IFenton/scivision@IFenton-installation-patch#egg=scivision
+    # - keras-nlp==0.2.0 # not present
+    # - python-doctr==0.6.0 # 0.5.1
+    # - torch==1.13.1 # 1.10.0
+    # - git+https://github.com/alan-turing-institute/scivision_classifier@main#egg=scivision_classifier
+    #- git+https://github.com/alan-turing-institute/scivision@main#egg=scivision # -e installation needed otherwise font file isn't downloaded
+    #- git+https://github.com/alan-turing-institute/scivision_huggingface@main#egg=scivision_huggingface # --no-deps
+    #- git+https://github.com/alan-turing-institute/scivision_huggingface_objectdetection # --no-deps
+    #- git+https://github.com/alan-turing-institute/scivision_huggingface_segmentation@main#egg=huggingface_segmentation # --no-deps

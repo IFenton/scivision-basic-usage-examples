@@ -1,0 +1,21 @@
+name: scivision_test
+channels:
+  - defaults
+dependencies:
+  - jax=0.2.10
+  - black=23.1.0
+  - tensorflow-cpu=2.10.0
+  - jupyter
+  - flax=0.3.6
+  - detectron2=0.6
+  - tf2onnx=1.13.0
+  - tokenizers=0.12.1
+  - transformers=4.19.0
+  - tensorflow=2.10.0
+  - torchvision=0.10.0
+  - tensorflow-hub=0.12.0
+  - pip
+  - onnxconverter-common=1.13.0
+  - timm=0.6.11
+  - python=3.9
+prefix: /Users/ifenton/opt/anaconda3/envs/scivision_test

@@ -1,0 +1,33 @@
+name: scivision_test2
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.9.12
+  - detectron2=0.6
+  #- tensorflow-hub=0.12.0 # not present
+  - jupyter=1.0.0
+  - pip=22.1.1
+  - pip:
+    #- keras-nlp==0.2.0 # not present
+    - black==22.3.0
+    - flax==0.5.2
+    - flatbuffers==22.11.23 #2.0.7 
+    - jax==0.3.6
+    - keras==2.11.0
+    - onnxconverter-common==1.9.0
+    - python-doctr==0.5.1
+    - tensorflow==2.11.0
+    - tensorflow-cpu==2.9.1
+    - tensorflow-estimator==2.11.0
+    - tf2onnx==1.11.1
+    - timm==0.5.4
+    - tokenizers==0.12.1 # pip
+    - torch==1.10.0
+    - torchvision==0.11.1
+    - transformers==4.20.1
+    - git+https://github.com/alan-turing-institute/scivision_classifier@main#egg=scivision_classifier
+    #- git+https://github.com/alan-turing-institute/scivision@main#egg=scivision # -e installation needed otherwise font file isn't downloaded
+    #- git+https://github.com/alan-turing-institute/scivision_huggingface@main#egg=scivision_huggingface # --no-deps
+    #- git+https://github.com/alan-turing-institute/scivision_huggingface_objectdetection # --no-deps
+    #- git+https://github.com/alan-turing-institute/scivision_huggingface_segmentation@main#egg=huggingface_segmentation # --no-deps

@@ -367,5 +367,6 @@ dependencies:
       - xarray==2023.3.0
       - zarr==2.14.2
       - zopfli==0.2.2
-      - git+https://github.com/alan-turing-institute/scivision@main#egg=scivision
-
+      #- git+https://github.com/alan-turing-institute/scivision@main#egg=scivision
+      - git+https://github.com/IFenton/scivision@IFenton-font-patch#egg=scivision
+    
